@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Faculty+Glyphic&display=swap');
+
+/* Toggle Button */
+.toggle-button {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15; 
+    -fx-border-width: 2px;
+	-fx-background-color: #D32F2F;
+	-fx-text-fill: #E0E0E0; 
+	-fx-cursor: hand;
+}
+
+/* Pane de Imagem */
+.pane-imagem {
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 2, 2);
+}
+
+.tab.header {
+	-fx-font-family: "Purple Purse";
+	-fx-font-size: 25px;
+	-fx-font-weight: bolder;
+}
+
+.tab { 
+	-fx-font-family: "Amarante";
+    -fx-font-weight: bolder;
+	-fx-font-size: 16px;
+}
+
+.lbl-titulo {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 25px;
+	-fx-font-weight: bolder;
+}
+
+.lbl-subtitulo {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 18px;
+	-fx-font-weight: bolder;
+}
+
+.text-id {
+	-fx-font-family: "Faculty Glyphic";
+	-fx-font-size: 18px;
+	-fx-font-weight: lighter;
+}
+
+.lbl-desenvolvedores {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 30px;
+	-fx-font-weight: bolder;
+}
+
+.lbl-link-id {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 20px;
+}
+
+.lbl-link-subtitulo {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 18px;
+}
+
+.lbl-link-github-projeto {
+	-fx-font-family: "Amarante";
+	-fx-font-size: 18px;
+}
+
+/* Estilo base para botões */
+.button {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0, 2, 2);
+    -fx-text-fill: white;
+    -fx-border-width: 1px;
+    -fx-text-family: "Faculty Glyphic";
+}
+
+/* Botão Apagar - Vermelho */
+.btn-apagar {
+    -fx-background-color: #e63946;
+    -fx-border-color: #d62828;
+}
+.btn-apagar:hover {
+    -fx-background-color: #d62828;
+    -fx-border-color: #a62020;
+}
+.btn-apagar:pressed {
+    -fx-background-color: #a62020;
+    -fx-border-color: #800f0f;
+}
+
+/* Botão Editar - Verde */
+.btn-editar {
+    -fx-background-color: #2a9d8f;
+    -fx-border-color: #21867a;
+}
+.btn-editar:hover {
+    -fx-background-color: #21867a;
+    -fx-border-color: #1b6f63;
+}
+.btn-editar:pressed {
+    -fx-background-color: #1b6f63;
+    -fx-border-color: #14544d;
+}
+
+.btn-informacao {
+    -fx-background-color: #457b9d;
+    -fx-border-color: #3a6580;
+}
+.btn-informacao:hover {
+    -fx-background-color: #3a6580;
+    -fx-border-color: #2e5065;
+}
+.btn-informacao:pressed {
+    -fx-background-color: #2e5065;
+    -fx-border-color: #223a4a;
+}
+
+.btn-salvar {
+    -fx-background-color: #1d7a8c; 
+    -fx-border-color: #155e63; 
+}
+.btn-salvar:hover {
+    -fx-background-color: #155e63; 
+    -fx-border-color: #0f4b4e;
+}
+.btn-salvar:pressed {
+    -fx-background-color: #0f4b4e; 
+    -fx-border-color: #083535; 
+}
+
+/* Botão Adicionar - Azul */
+.btn-adicionar {
+    -fx-background-color: #0077b6;
+    -fx-border-color: #005f8c;
+}
+.btn-adicionar:hover {
+    -fx-background-color: #005f8c;
+    -fx-border-color: #00456b;
+}
+.btn-adicionar:pressed {
+    -fx-background-color: #00456b;
+    -fx-border-color: #00314b;
+}
