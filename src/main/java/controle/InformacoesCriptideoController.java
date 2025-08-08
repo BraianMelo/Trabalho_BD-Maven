@@ -2,6 +2,7 @@ package controle;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
 
 import javafx.fxml.FXML;
@@ -93,7 +94,8 @@ public class InformacoesCriptideoController extends Controller {
                 imagemRedonda.setImage(imagem);
                 
             } else {
-                imagemRedonda.setImage(new Image("/visao/imagens/Icone_Sem_Imagem.png"));
+            	URL caminhoImagem = getClass().getResource("/visao/imagens/Icone_Sem_Imagem.png");
+                imagemRedonda.setImage(new Image(caminhoImagem.toExternalForm()));
                 
             }
         }
